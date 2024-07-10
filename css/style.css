@@ -269,9 +269,11 @@ font-size: 4.5rem;
 .portfolio-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
+    justify-items: center; /* Center items horizontally */
+  align-items: center;   /* Center items vertically */
     gap: 2.5rem;
-    text-align: center;
+    
+
 }
 
 .portfolio-container .portfolio-box {
@@ -280,6 +282,7 @@ font-size: 4.5rem;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+    
 }
 
 .portfolio-box img {
